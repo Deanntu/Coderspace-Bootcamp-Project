@@ -41,14 +41,17 @@ input:hover{
 </button>
 <%
 if (session.getAttribute("username") != null){
+	%>
+<button onclick="window.location.href='Logout.jsp';">
+     Logout
+</button>
+	<%
 	if (session.getAttribute("username").equals("admin")){
 	%>
 <button onclick="window.location.href='AdminPanel.jsp';">
       Admin Panel
 </button>
-<button onclick="window.location.href='Logout.jsp';">
-     Logout
-</button>
+
 
 
 <%}}else{ %>

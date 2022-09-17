@@ -10,7 +10,7 @@ UserManager userManager = new UserManager();
 if(request.getParameter("login") != null){
 	username= request.getParameter("username");
 	password= request.getParameter("password");
-	password2= request.getParameter("password2");
+	address= request.getParameter("address");
 	if(!password.equals(password2)) {
 		message="passwords must be equal";
 		

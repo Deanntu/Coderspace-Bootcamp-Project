@@ -33,7 +33,7 @@ input:hover{
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Tugra "Deanntu" Demirel</title>
 </head>
 <body>
 <button onclick="window.location.href='../main/api/Categories.jsp';">

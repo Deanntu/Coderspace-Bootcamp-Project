@@ -1,8 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1" import="com.deanntu.inventory.entity.* , com.deanntu.inventory.manager.*" %>
 <%
-if(session.getAttribute("username")!= "admin"){
-	response.sendRedirect("../Home.jsp");
+if(!(session.getAttribute("username").equals("admin"))){
+	response.sendRedirect("Home.jsp");
 }
 String categoryName="";
 long categoryID=0;

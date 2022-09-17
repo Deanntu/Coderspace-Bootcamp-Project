@@ -16,7 +16,7 @@ String info = product.toPublish();
 long quantity = 0;
 Cart cart = new Cart();
 CartProduct cp = new CartProduct();
-String message = "a";
+String message = "";
 if(request.getParameter("addProduct") != null){
 	quantity =  Integer.parseInt(request.getParameter("quantity"));
 	
